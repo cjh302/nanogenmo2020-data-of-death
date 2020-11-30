@@ -30,7 +30,7 @@ feelings_full_file.close
 
 #make our novel
 novel = open("dataofdeath.html", "a+")
-novel.write("<html><head><title>Data of Death</title></head><body><h1>Data of Death: feelings in the machine, a tale of descent</h1>")
+novel.write("<html><head><title>Data of Death</title><link rel=\"stylesheet\" href=\"dataofdeath.css\"></head><body><h1>Data of Death: feelings in the machine, a tale of descent</h1>")
 
 #grab csv data: worldwide COVID case counts by day, sourced from https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/L20LOT
 with open('covid_data.csv') as csv_file:
@@ -64,14 +64,18 @@ with open('covid_data.csv') as csv_file:
 			if day_count < 100:
 				today_entry = today_entry.replace('ZEITGEIST', 'confusion')
 				today_entry = today_entry.replace('FEELING', random.choice(feelings_mild))
+				today_entry = today_entry.replace('set_intensity', 'feelings_mild')
+				
 
 			elif day_count < 200:
 				today_entry = today_entry.replace('ZEITGEIST', 'terror')
 				today_entry = today_entry.replace('FEELING', random.choice(feelings_medium))
+				today_entry = today_entry.replace('set_intensity', 'feelings_medium')
 
 			else:
 				today_entry = today_entry.replace('ZEITGEIST', 'madness')
 				today_entry = today_entry.replace('FEELING', random.choice(feelings_full))
+				today_entry = today_entry.replace('set_intensity', 'feelings_full')
 
 			if day_count == 1:
 				today_entry = today_entry.replace('1 days', '1 day')
