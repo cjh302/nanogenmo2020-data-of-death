@@ -1,0 +1,21 @@
+<h2>DATE</h2>
+Dear Diary,
+<p>
+Today is DATE, and there are CASECOUNT new cases of COVID. I have been counting for DAYCOUNT days and I am feeling FEELING. If today's count is CASECOUNT, what will tomorrow bring? How can we survive this? What will I see in the news, if I live to the morrow?
+<p>
+How many will die, of the CASECOUNT people who got COVID today? How many will give COVID to others, and to how many others?
+<p>
+If I tell my friends that CASECOUNT more people got COVID today, will they go out less? Will they wear a mask? Will they lie awake, staring at their ceiling?
+<p>
+How many hours of sleep are lost? How many days of work? How many dollars, or pounds, or euros? How many lives are lost and how many hearts break? Who sits alone in the silence? Who sheds tears and who feels an eternal nothing, a closing down not of their own volition?
+<p>
+When do we stop, Diary? Where does this lead us?
+<p>
+When will I stop?
+<p>
+A soulless summary:
+<ul><li>Today: DATE, another day.
+<li>It is day number DAYCOUNT of this ZEITGEIST.
+<li>The number of cases is CASECOUNT.
+<li>I am FEELING.</ul>
+I can neither list nor count the rest. No one can.
