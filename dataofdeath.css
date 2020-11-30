@@ -1,0 +1,6 @@
+/* colourblind-friendly palette for Data of Death  */ 
+
+.number { color: #b66dff; }
+.feelings_mild { color: #009292; }
+.feelings_medium { color: #db6d00; }
+.feelings_full { color: #920000; }
